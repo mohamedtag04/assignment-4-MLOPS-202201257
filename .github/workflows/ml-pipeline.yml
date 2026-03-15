@@ -32,5 +32,5 @@ jobs:
       - name: Upload README as artifact
         uses: actions/upload-artifact@v4
         with:
-        - name: project-doc
+          name: project-doc
           path: README.md
